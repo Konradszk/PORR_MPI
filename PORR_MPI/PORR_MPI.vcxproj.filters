@@ -21,6 +21,12 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -29,5 +35,22 @@
     <ClCompile Include="PORR_MPI.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\PORR_Detekcja_plagiatu_CPP\2_image.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="..\..\PORR_Detekcja_plagiatu_CPP\6_image.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="..\..\PORR_Detekcja_plagiatu_CPP\check_image_recognition.txt">
+      <Filter>Source Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>
