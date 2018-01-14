@@ -1,7 +1,7 @@
 #include "stdafx.h"
 #include "Controller.h"
 
-Controller::Controller() {}
+
 
 Controller::Controller(Text &words_to_check_text) :  words_to_check_text(words_to_check_text) {
 	words = words_to_check_text.get_list_of_words_from_text();

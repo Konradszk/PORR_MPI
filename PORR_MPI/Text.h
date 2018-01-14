@@ -6,10 +6,9 @@
 #include <list>
 
 class Text {
-public:
-	Text();
 
-private:
+
+
 public:
 	Text(std::string file_path);
 	std::list<std::string>  get_list_of_words_from_text();

@@ -2,7 +2,7 @@
 
 #include "Text.h"
 
-Text::Text() {};
+
 
 Text::Text(std::string file_path) : file_path(file_path) {
 	Text::get_words_from_file();
@@ -16,8 +16,6 @@ std::list<std::string>  Text::get_list_of_words_from_text() {
 
 void Text::get_words_from_file() {
 	std::string str;
-
-	std::cout << "Read from a file!" << std::endl;
 
 	std::ifstream fin(file_path); // Open it up!
 	while (fin >> str) // Will read up to eof() and stop at every
